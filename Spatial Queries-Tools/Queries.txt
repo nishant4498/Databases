@@ -1,0 +1,32 @@
+CREATE TABLE MyPoints
+(
+  name character varying,
+  geom geometry
+)
+
+
+INSERT INTO MyPoints(name, geom)
+VALUES ('Home','POINT(-118.293648 34.021981)'),
+('Taco Bell','POINT(-118.291813 34.022286)'),
+('SGM','POINT(-118.289100 34.021108)'),
+('Leavey Library','POINT(-118.282961 34.021661)'),
+('USC Credit Union','POINT(-118.28575 34.020230)'),
+('Cinematic Arts','POINT(-118.287198 34.023338)'),
+('Friend House','POINT(-118.279397 34.028008)'),
+('Manas Restaurant','POINT(-118.291801 34.028836)'),
+('Galen Center','POINT(-118.279872 34.020757)');
+
+
+Convex Hull Query:
+
+SELECT ST_AsText(ST_ConvexHull(ST_Collect(geom))) from MyPoints;
+
+Nearest Neighbour Query:
+
+SELECT ST_AsText(geom) FROM MyPoints WHERE name NOT IN ('Home') ORDER BY geom <-> ST_SetSRID(ST_MakePoint(-118.293648,34.021981),4326) LIMIT 3;
+
+
+
+
+
+

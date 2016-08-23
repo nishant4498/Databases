@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <Placemark>
+    <name>Home</name>
+    <description>My home placemark</description>
+    <Point>
+      <coordinates>-118.293648,34.021981,5</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Taco Bell</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.291813,34.022286,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>SGM Building</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.289100,34.021108,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Leavey Library</name>
+    <description></description>
+    <Point>
+      <coordinates> -118.282961, 34.021661,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>USC Credit Union</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.28575,34.020230,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cinematic Arts</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.287198,34.023338,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Friend's House</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.279397,34.028008,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Manas Restaurant</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.291801,34.028836,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Galen Center</name>
+    <description></description>
+    <Point>
+      <coordinates>-118.279872,34.020757,0</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
+
+
+
+
+
+
+ 
