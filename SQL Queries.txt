@@ -1,0 +1,12 @@
+Q1: http://www.sqlfiddle.com/#!15/66782/8    (Please uncomment the two conflicting select statements to see output.)
+
+
+Q2:  http://www.sqlfiddle.com/#!9/bea81/3
+
+Q3: http://www.sqlfiddle.com/#!9/4eac7/1
+
+Q4: http://www.sqlfiddle.com/#!15/b5d06/12
+
+Q5: http://www.sqlfiddle.com/#!9/5f4263/2
+Q5 bonus #1: http://www.sqlfiddle.com/#!9/5f5aff/2
+Q5 bonus #2: http://www.sqlfiddle.com/#!9/5f4263/3
